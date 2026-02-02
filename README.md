@@ -94,4 +94,41 @@ The design emphasizes **modern UI**, **attractive color themes**, and **responsi
 ---
 
 ## 📂 Project Structure
+## 📥 Registration & Communication
+
+- 🔗 **Registration Link:** https://example.com/register  
+- 💬 **WhatsApp Group:** https://chat.whatsapp.com/example  
+
+
+
+---
+
+## 🧑‍💻 Author
+
+**Swetha S**  
+Aspiring Frontend Developer  
+
+- GitHub: https://github.com/swetha-create-tech  
+
+---
+
+## ⭐ Acknowledgement
+
+This project was created for learning and practice purposes to enhance **frontend development skills** and to build a real-world college symposium website suitable for **internship and portfolio use**.
+
+---
+
+## 📌 Future Enhancements
+
+- Add scroll animations and transitions  
+- Include event-wise registration forms  
+- Add gallery section  
+- Add contact form and Google Maps location  
+
+---
+
+### 🚀 Final Note
+
+This project demonstrates my ability to design and develop a **real-time college event website** using core web technologies.  
+It reflects my interest in **frontend development** and continuous learning toward professional growth.
 
