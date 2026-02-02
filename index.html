@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TECHNOVA 2026 | V.R.S College of Engineering and Technology</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      background: linear-gradient(to right, #00f2fe, #4facfe);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    header p {
+      margin-top: 15px;
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 28px;
+      background: #00f2fe;
+      color: #000;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #4facfe;
+      transform: scale(1.05);
+    }
+
+    section {
+      padding: 60px 10%;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.2rem;
+      color: #00f2fe;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 25px;
+      border-radius: 16px;
+      backdrop-filter: blur(10px);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #4facfe;
+    }
+
+    .info {
+      text-align: center;
+      font-size: 1.1rem;
+    }
+
+    ul {
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: rgba(0,0,0,0.3);
+      font-size: 0.9rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <header>
+    <div>
+      <h1>TECHNOVA 2026</h1>
+      <p>National Level Technical & Non-Technical Symposium</p>
+      <p><strong>V.R.S College of Engineering and Technology</strong></p>
+      <p>📅 25 March 2026 | ⏰ 9:00 AM – 4:30 PM</p>
+      <a href="#register" class="btn">Register Now</a>
+    </div>
+  </header>
+
+  <!-- TECHNICAL EVENTS -->
+  <section>
+    <h2 class="section-title">Technical Events</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Paper Presentation</h3>
+        <p>Showcase your innovative ideas and research skills.</p>
+      </div>
+      <div class="card">
+        <h3>Code Quest</h3>
+        <p>Test your programming and logical thinking abilities.</p>
+      </div>
+      <div class="card">
+        <h3>Project Expo</h3>
+        <p>Present your mini & major projects to experts.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- NON-TECHNICAL EVENTS -->
+  <section>
+    <h2 class="section-title">Non-Technical Events</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Tech Quiz</h3>
+        <p>Fun quiz with a mix of tech and general knowledge.</p>
+      </div>
+      <div class="card">
+        <h3>Photography</h3>
+        <p>Capture moments and creativity through your lens.</p>
+      </div>
+      <div class="card">
+        <h3>Connection Game</h3>
+        <p>Link the clues and win exciting prizes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RULES -->
+  <section>
+    <h2 class="section-title">Rules & Regulations</h2>
+    <div class="card info">
+      <ul>
+        <li>All participants must wear their College ID Card.</li>
+        <li>Each team should consist of 2 to 3 members.</li>
+        <li>Participants must report on time.</li>
+        <li>Judges’ decision will be final.</li>
+        <li>Maintain discipline throughout the event.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- REGISTRATION -->
+  <section id="register">
+    <h2 class="section-title">Registration</h2>
+    <div class="cards">
+      <div class="card info">
+        <p>📌 Register using the link below</p>
+        <a href="https://example.com/register" target="_blank" class="btn">Registration Link</a>
+      </div>
+      <div class="card info">
+        <p>💬 Join our WhatsApp Group for updates</p>
+        <a href="https://chat.whatsapp.com/example" target="_blank" class="btn">WhatsApp Group</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 TECHNOVA | V.R.S College of Engineering and Technology</p>
+    <p>Designed for Internship Portfolio 🚀</p>
+  </footer>
+
+  <script>
+    // Simple welcome message
+    console.log("Welcome to TECHNOVA 2026 Symposium Website");
+  </script>
+
+</body>
+</html>
